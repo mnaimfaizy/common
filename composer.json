@@ -1,0 +1,15 @@
+{
+    "name": "naimfaizy/common",
+    "description": "This is a package for the Microservice",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohammad Naim Faizy",
+            "email": "mnaim.faizy@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^9.11"
+    }
+}
