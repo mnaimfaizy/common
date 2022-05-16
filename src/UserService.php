@@ -26,6 +26,7 @@ class UserService
 
     public function getUser(): User
     {
+        return $this->endpoint;
         $json = $this->request()->get("{$this->endpoint}/user")->json();
 
         return new User($json);
